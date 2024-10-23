@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "VehicleAPI.Controllers.VehiclesController",
+    "Method": "GetModelsForMakeIdYear",
+    "RelativePath": "api/Vehicles/GetModelsForMakeIdYear/{makeId}/{modelYear}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "makeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "modelYear",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vehicleTypeName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleAPI.Controllers.VehiclesController",
+    "Method": "GetVehicleTypesForMakeId",
+    "RelativePath": "api/Vehicles/GetVehicleTypesForMakeId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleAPI.Controllers.VehiclesController",
+    "Method": "GetVehicleTypesForMakeId",
+    "RelativePath": "api/Vehicles/GetVehicleTypesForMakeId/{makeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "makeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
