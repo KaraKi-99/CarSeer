@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarSeer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarSeer.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\popper.js",
+      "PackagePath": "staticwebassets\\lib\\js\\popper.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarSeer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CarSeer.props",
+      "PackagePath": "build\\CarSeer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CarSeer.props",
+      "PackagePath": "buildMultiTargeting\\CarSeer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CarSeer.props",
+      "PackagePath": "buildTransitive\\CarSeer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
