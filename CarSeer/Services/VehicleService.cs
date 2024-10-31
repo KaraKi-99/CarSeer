@@ -1,17 +1,12 @@
 ﻿using CarSeer.ViewModels;
-using Microsoft.AspNetCore.DataProtection.KeyManagement;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json;
-using System.Drawing.Printing;
-using System.Net.Http;
-using System.Reflection;
 
 namespace CarSeer.Services
 {
     public interface IVehicleService
     {
-        Task<VehicleMakeVM?> GetAllMakes(VehicleMakeVM model);
+        Task<VehicleMakeVM?> GetAllMakes();
         Task<VehicleTypeVM?> GetVehicleTypeByMakeId(VehicleTypeVM model);
         Task<VehicleModelVM?> GetModels(VehicleModelVM model);
     }
@@ -26,7 +21,8 @@ namespace CarSeer.Services
             _httpClientFactory = httpClientFactory;
             _cache = cache;
         }
-        public async Task<VehicleMakeVM?> GetAllMakes(VehicleMakeVM model)
+
+        public async Task<VehicleMakeVM?> GetAllMakes()
         {
             var cacheKey = "allMakes";
             if (!_cache.TryGetValue(cacheKey, out VehicleMakeVM? cachedData))
@@ -46,22 +42,7 @@ namespace CarSeer.Services
 
             if (cachedData?.Results != null && cachedData.Results.Count > 0)
             {
-                var totalItems = cachedData.Results.Count;
-                var totalPages = (int)Math.Ceiling(totalItems / (double)model.PageSize);
-
-                var pagedResults = cachedData.Results
-                                             .Skip((model.CurrentPage - 1) * model.PageSize)
-                                             .Take(model.PageSize)
-                                             .ToList();
-
-                return new VehicleMakeVM
-                {
-                    Results = pagedResults,
-                    TotalCount = totalItems,
-                    CurrentPage = model.CurrentPage,
-                    TotalPages = totalPages,
-                    PageSize = model.PageSize
-                };
+                return cachedData;
             }
 
             return new VehicleMakeVM();
@@ -69,8 +50,6 @@ namespace CarSeer.Services
 
         public async Task<VehicleTypeVM?> GetVehicleTypeByMakeId(VehicleTypeVM model)
         {
-            _cache.Remove("allMakes");
-
             var response = await _httpClient.GetAsync($"https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMakeId/{model.MakeId}?format=json");
 
             if (response.IsSuccessStatusCode)
@@ -101,8 +80,6 @@ namespace CarSeer.Services
         }
         public async Task<VehicleModelVM?> GetModels(VehicleModelVM model)
         {
-            _cache.Remove("allMakes");
-
             var response = await _httpClient.GetAsync($"https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/{model.MakeId}/modelyear/{model.ModelYear}?format=json");
 
             if (response.IsSuccessStatusCode)

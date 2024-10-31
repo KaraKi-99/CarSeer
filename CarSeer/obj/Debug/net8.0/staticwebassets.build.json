@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sm5M6GNXl7ORWpfbWRFo3PaKNpJCQUsitAFwoyQARHQ=",
+  "Hash": "cfPCYlBG9PVdVojwlJt74Eq4WiudNPghN5uvJy8io/U=",
   "Source": "CarSeer",
   "BasePath": "_content/CarSeer",
   "Mode": "Default",
@@ -131,6 +131,25 @@
       "OriginalItemSpec": "wwwroot\\lib\\css\\bootstrap.css"
     },
     {
+      "Identity": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\css\\select2.css",
+      "SourceId": "CarSeer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\",
+      "BasePath": "_content/CarSeer",
+      "RelativePath": "lib/css/select2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\css\\select2.css"
+    },
+    {
       "Identity": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\bootstrap.js",
       "SourceId": "CarSeer",
       "SourceType": "Discovered",
@@ -167,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\js\\popper.js"
+    },
+    {
+      "Identity": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\select2.js",
+      "SourceId": "CarSeer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\",
+      "BasePath": "_content/CarSeer",
+      "RelativePath": "lib/js/select2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\js\\select2.js"
     }
   ]
 }

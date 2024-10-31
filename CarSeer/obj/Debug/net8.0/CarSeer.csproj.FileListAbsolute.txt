@@ -679,3 +679,4 @@ D:\Projects\CarSeer\CarSeer\obj\Debug\net8.0\refint\CarSeer.dll
 D:\Projects\CarSeer\CarSeer\obj\Debug\net8.0\CarSeer.pdb
 D:\Projects\CarSeer\CarSeer\obj\Debug\net8.0\CarSeer.genruntimeconfig.cache
 D:\Projects\CarSeer\CarSeer\obj\Debug\net8.0\ref\CarSeer.dll
+D:\Projects\CarSeer\CarSeer\obj\Debug\net8.0\CarSeer.sourcelink.json

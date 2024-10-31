@@ -34,16 +34,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/CarSeer/CarSeer/Views/Vehicles/GetAllMakes.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcR2V0QWxsTWFrZXMuY3NodG1s
+[D:/Projects/CarSeer/CarSeer/Views/Vehicles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/CarSeer/CarSeer/Views/Vehicles/GetVehicleModels.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcR2V0VmVoaWNsZU1vZGVscy5jc2h0bWw=
+[D:/Projects/CarSeer/CarSeer/Views/Vehicles/_VehicleModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcX1ZlaGljbGVNb2RlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/CarSeer/CarSeer/Views/Vehicles/GetVehicleType.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcR2V0VmVoaWNsZVR5cGUuY3NodG1s
+[D:/Projects/CarSeer/CarSeer/Views/Vehicles/_VehicleType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcX1ZlaGljbGVUeXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/CarSeer/CarSeer/Views/_ViewImports.cshtml]

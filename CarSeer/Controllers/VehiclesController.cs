@@ -1,8 +1,6 @@
-﻿using CarSeer.Models;
-using CarSeer.Services;
+﻿using CarSeer.Services;
 using CarSeer.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace CarSeer.Controllers
 {
@@ -14,22 +12,30 @@ namespace CarSeer.Controllers
             _vehicleService = vehicleService;
         }
 
-        public async Task<IActionResult> GetAllMakes(VehicleMakeVM model)
+        public async Task<IActionResult> Index()
         {
-            var result = await _vehicleService.GetAllMakes(model);
+            VehicleMakeVM? result = await _vehicleService.GetAllMakes();
+
+            int startYear = 1950;
+            int currentYear = DateTime.Now.Year;
+
+            result.Years = Enumerable.Range(startYear, currentYear - startYear + 1)
+                            .Select(year => year.ToString())
+                            .ToList();
             return View(result);
         }
 
-        public async Task<IActionResult> GetVehicleType(VehicleTypeVM model)
+        [HttpPost]
+        public async Task<IActionResult> GetVehicleTypeGrid(VehicleTypeVM model)
         {
             VehicleTypeVM? result = await _vehicleService.GetVehicleTypeByMakeId(model);
-            return View(result);
+            return PartialView("_VehicleType", result);
         }
-
-        public async Task<IActionResult> GetVehicleModels(VehicleModelVM model)
+        [HttpPost]
+        public async Task<IActionResult> GetVehicleModelsGrid(VehicleModelVM model)
         {
             VehicleModelVM? result = await _vehicleService.GetModels(model);
-            return View(result);
+            return PartialView("_VehicleModel", result);
         }
     }
 }

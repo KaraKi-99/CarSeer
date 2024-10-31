@@ -21,12 +21,20 @@
       "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css"
     },
     {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\css\\select2.css",
+      "PackagePath": "staticwebassets\\lib\\css\\select2.css"
+    },
+    {
       "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\js\\bootstrap.js"
     },
     {
       "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\popper.js",
       "PackagePath": "staticwebassets\\lib\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\select2.js",
+      "PackagePath": "staticwebassets\\lib\\js\\select2.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarSeer.Microsoft.AspNetCore.StaticWebAssets.props",

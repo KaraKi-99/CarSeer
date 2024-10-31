@@ -3,23 +3,92 @@
   "WorkspaceRootPath": "D:\\Projects\\CarSeer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alkar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\vehicles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\vehicles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\carseer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\carseer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\vehicles\\_vehiclemodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\vehicles\\_vehiclemodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\vehicles\\_vehicletype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\vehicles\\_vehicletype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\viewmodels\\vehicletypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\viewmodels\\vehicletypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\models\\vehiclemake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\models\\vehiclemake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\models\\vehiclemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\models\\vehiclemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\viewmodels\\vehiclemakevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\viewmodels\\vehiclemakevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\viewmodels\\vehiclemodelvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\viewmodels\\vehiclemodelvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\wwwroot\\lib\\css\\select2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\wwwroot\\lib\\css\\select2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\wwwroot\\lib\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\wwwroot\\lib\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|d:\\projects\\carseer\\carseer\\wwwroot\\lib\\js\\select2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9EE4FE12-D45D-41DE-8E09-9D67CCE2D8B8}|CarSeer\\CarSeer.csproj|solutionrelative:carseer\\wwwroot\\lib\\js\\select2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\CarSeer\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,65 +98,294 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CarSeer\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CarSeer\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-27T21:18:32.859Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Container.targets",
-              "DocumentMoniker": "C:\\Users\\alkar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
-              "ToolTip": "C:\\Users\\alkar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
-              "ViewState": "AgIAANgAAAAAAAAAAAAqwOoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-27T20:25:38.588Z"
+              "Title": "VehicleService.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Services\\VehicleService.cs",
+              "RelativeDocumentMoniker": "CarSeer\\Services\\VehicleService.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Services\\VehicleService.cs",
+              "RelativeToolTip": "CarSeer\\Services\\VehicleService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswFIAAAC0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T18:58:32.563Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "VehiclesController.cs",
               "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Controllers\\VehiclesController.cs",
               "RelativeDocumentMoniker": "CarSeer\\Controllers\\VehiclesController.cs",
               "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Controllers\\VehiclesController.cs",
               "RelativeToolTip": "CarSeer\\Controllers\\VehiclesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T20:14:05.52Z"
+              "WhenOpened": "2024-10-29T18:58:14.5Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Dockerfile",
-              "RelativeDocumentMoniker": "CarSeer\\Dockerfile",
-              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Dockerfile",
-              "RelativeToolTip": "CarSeer\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-27T19:52:21.258Z",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CarSeer\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CarSeer\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:31:02.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_VehicleModel.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Vehicles\\_VehicleModel.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\Vehicles\\_VehicleModel.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Vehicles\\_VehicleModel.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\Vehicles\\_VehicleModel.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T19:19:13.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CarSeer",
-              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\CarSeer.csproj",
-              "RelativeDocumentMoniker": "CarSeer\\CarSeer.csproj",
-              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\CarSeer.csproj",
-              "RelativeToolTip": "CarSeer\\CarSeer.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-27T19:47:50.67Z"
+              "Title": "_VehicleType.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Vehicles\\_VehicleType.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\Vehicles\\_VehicleType.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Vehicles\\_VehicleType.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\Vehicles\\_VehicleType.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T19:54:01.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Vehicles\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\Vehicles\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Vehicles\\Index.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\Vehicles\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T17:07:11.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VehicleTypeVM.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\ViewModels\\VehicleTypeVM.cs",
+              "RelativeDocumentMoniker": "CarSeer\\ViewModels\\VehicleTypeVM.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\ViewModels\\VehicleTypeVM.cs",
+              "RelativeToolTip": "CarSeer\\ViewModels\\VehicleTypeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:06:56.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T19:28:21.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:04:24.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehicleMake.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Models\\VehicleMake.cs",
+              "RelativeDocumentMoniker": "CarSeer\\Models\\VehicleMake.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Models\\VehicleMake.cs",
+              "RelativeToolTip": "CarSeer\\Models\\VehicleMake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:27:24.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VehicleModel.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Models\\VehicleModel.cs",
+              "RelativeDocumentMoniker": "CarSeer\\Models\\VehicleModel.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Models\\VehicleModel.cs",
+              "RelativeToolTip": "CarSeer\\Models\\VehicleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:30:54.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VehicleType.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Models\\VehicleType.cs",
+              "RelativeDocumentMoniker": "CarSeer\\Models\\VehicleType.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Models\\VehicleType.cs",
+              "RelativeToolTip": "CarSeer\\Models\\VehicleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:30:53.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VehicleMakeVM.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\ViewModels\\VehicleMakeVM.cs",
+              "RelativeDocumentMoniker": "CarSeer\\ViewModels\\VehicleMakeVM.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\ViewModels\\VehicleMakeVM.cs",
+              "RelativeToolTip": "CarSeer\\ViewModels\\VehicleMakeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:22:55.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VehicleModelVM.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\ViewModels\\VehicleModelVM.cs",
+              "RelativeDocumentMoniker": "CarSeer\\ViewModels\\VehicleModelVM.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\ViewModels\\VehicleModelVM.cs",
+              "RelativeToolTip": "CarSeer\\ViewModels\\VehicleModelVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:33:22.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:04:37.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:04:38.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CarSeer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CarSeer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T16:04:40.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "select2.js",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\select2.js",
+              "RelativeDocumentMoniker": "CarSeer\\wwwroot\\lib\\js\\select2.js",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\js\\select2.js",
+              "RelativeToolTip": "CarSeer\\wwwroot\\lib\\js\\select2.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABBAwEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-31T16:05:11.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\Program.cs",
+              "RelativeDocumentMoniker": "CarSeer\\Program.cs",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\Program.cs",
+              "RelativeToolTip": "CarSeer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:46:24.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "CarSeer\\wwwroot\\lib\\css\\bootstrap.css",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\css\\bootstrap.css",
+              "RelativeToolTip": "CarSeer\\wwwroot\\lib\\css\\bootstrap.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T16:05:51.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "select2.css",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\css\\select2.css",
+              "RelativeDocumentMoniker": "CarSeer\\wwwroot\\lib\\css\\select2.css",
+              "ToolTip": "D:\\Projects\\CarSeer\\CarSeer\\wwwroot\\lib\\css\\select2.css",
+              "RelativeToolTip": "CarSeer\\wwwroot\\lib\\css\\select2.css",
+              "ViewState": "AgIAAFYCAAAAAAAAAAAqwHwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-31T16:05:56.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\CarSeer\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Projects\\CarSeer\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-29T18:20:27.452Z"
             }
           ]
         }

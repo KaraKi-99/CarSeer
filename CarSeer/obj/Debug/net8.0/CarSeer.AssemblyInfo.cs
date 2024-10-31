@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarSeer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7fce2dac491e4bf9a49666e6057b90d8ddd67ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarSeer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarSeer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

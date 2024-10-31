@@ -1,0 +1,90 @@
+﻿@using System.Text.Json
+@model CarSeer.ViewModels.VehicleMakeVM
+
+<div class="m-3">
+    <h2 class="m-1">Vehicles</h2>
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4>Search Criteria</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-3 mr-4">
+                    <label class="form-label">Make ID: </label>
+                    <select class="form-select select2" id="makeId">
+                        <option value="" selected disabled hidden>Please select Vehicle make</option>
+                    </select>
+                    <span id="makeError" class="text-danger" style="display:none;">Vehicle make is required.</span>
+                </div>
+                <div class="col-3">
+                    <label class="form-label">Manufacture Year: </label>
+                    <select class="form-select select2" id="manufactureYear" asp-for="ModelYear" asp-items="@(new SelectList(Model.Years))">
+                        <option value="" selected disabled hidden>Please select manufacture Year</option>
+                    </select>
+                    <span id="yearError" class="text-danger" style="display:none;">Manufacture Year is required.</span>
+                </div>
+            </div>
+            <button type="submit" id="searchButton" class="btn btn-primary mt-3">Search</button>
+        </div>
+    </div>
+
+<div class="row">
+    <div id="vehicleTypeGridContainer" class="col-md-6"></div>
+    <div id="vehicleModelGridContainer" class="col-md-6"></div>
+</div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.select2').select2();
+        const vehicleMakes = @Html.Raw(JsonSerializer.Serialize(Model.Results));
+        populateMakesDropdown(vehicleMakes);
+
+        $('#searchButton').click(function () {
+            const modelYear = $('#manufactureYear').val();
+            const makeId = $('#makeId').val();
+            fetchVehicleData(makeId, modelYear);
+        });
+    });
+
+    function populateMakesDropdown(makes) {
+        const selectElement = $('#makeId');
+        makes.forEach(make => {
+            selectElement.append(new Option(make.Make_Name, make.Make_ID));
+        });
+    }
+
+    function fetchVehicleData(makeId, modelYear) {
+        var makeError = document.getElementById('makeError')
+        var yearError = document.getElementById('yearError')
+        makeId ? makeError.style.display = 'none': makeError.style.display = 'block' ;
+        modelYear ? yearError.style.display = 'none' : yearError.style.display = 'block';
+
+        if( makeId !== null && modelYear !== null)
+        {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("GetVehicleTypeGrid", "Vehicles")',
+                data: { MakeId: makeId },
+                success: function (response) {
+                $('#vehicleTypeGridContainer').html(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("GetVehicleModelsGrid", "Vehicles")',
+                data: { MakeId: makeId, ModelYear: modelYear },
+                success: function (response) {
+                    $('#vehicleModelGridContainer').html(response);
+                },
+                error: function (xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        }
+    }
+</script>
