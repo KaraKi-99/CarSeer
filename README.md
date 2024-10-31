@@ -28,7 +28,7 @@ CarSeer is a powerful application designed to provide users with comprehensive v
 
 4. **Access the Application**
 
-   Open your browser and go to [http://localhost:5000/](http://localhost:5000/).
+   Open your browser and go to [http://localhost:5000/](http://localhost:5250/).
 
 ---
 
